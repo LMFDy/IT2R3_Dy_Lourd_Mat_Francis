@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    background: slategray;
+}
+.logo-section {
+    width: 21%;
+    display: inline-block;
+}
+.logo-section img {
+    width: 60%;
+    margin-top: 4px;
+    margin-left: 100px;
+}
+nav {
+    float: right;
+    margin-top: 94px;
+    margin-right: 92px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 25px 50px;
+}
+nav a:hover {
+    background: silver;
+    border-radius: 100px;
+}
+.container {
+    width: 1780px;
+    margin: 0 auto;
+}

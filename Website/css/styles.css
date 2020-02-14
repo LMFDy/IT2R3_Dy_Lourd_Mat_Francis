@@ -1,0 +1,61 @@
+body{
+	background-color: grey;
+
+}
+table{
+	width: 150px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	border-collapse: collapse
+
+}
+td{
+	height: 35px;
+	width: 200px;
+	text-align: center;
+	border: 1px solid black;
+	font-style: italic;
+	font-size: 75%;
+}
+.colorname{	
+	color: white;
+	background-color: blue;
+	
+}
+.hex{
+	color: white;
+	background-color: #FFA500;
+	
+}
+.hsl{
+	color: white;
+	background-color: hsl(0, 100%, 50%);
+	
+}
+.hsla{
+	color: white;
+	background-color: hsla(0, 100%, 70%, 0.3);
+	
+}
+.rgb{
+	color: white;
+	background-color: rgb(128,128,0);
+}
+.rgba{
+	color: white;
+	background-color: rgba(255, 0, 0, 0.4);
+}
+.collorname{
+	color: white;
+	background-color: fuchsia;
+}
+.hsls{
+	color: white;
+	background-color: hsl(240,100%,25%);
+}
+.hslas{
+	color: white;
+	background-color: hsla(120,100%,25%,0.3);
+}
