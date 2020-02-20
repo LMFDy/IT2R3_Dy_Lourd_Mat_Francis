@@ -86,8 +86,8 @@ div.section2-content {
 }
 div.section2-content img {
     float: right;
-    margin-top: 0px;
-    height: 230px;
+    margin-top: -10px;
+    height: 250px;
 }
 section.service-section h3 {
     font-size: 30px;
@@ -98,9 +98,10 @@ section.service-section h3 {
     background: #1d195f91;
     color: #fdffff;
 }
-div.section3-content{
+div.section3-content {
     display: inline-block;
-    width: 33%;
+    margin-left: 22px;
+    width: 30%;
     border-left: 1px solid white;
     text-align: center;
     color: white;
@@ -115,9 +116,10 @@ nav.buttons a {
     text-transform: uppercase;
     font-size: 35px;
     color: white;
+    padding: 0px;
 }
 nav.buttons {
-    margin-right: 350px;
+    margin-right: 450px;
 }
 nav.buttons:hover {
     background: cadetblue;
